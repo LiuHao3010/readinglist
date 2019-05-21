@@ -34,4 +34,9 @@ public class ReadingListController {
         System.out.println(list.size());
         return "redirect:/ReadingList/{reader}";
     }
+    @RequestMapping(value = "/login")
+    public String login(){
+        return "login";
+    }
+
 }
