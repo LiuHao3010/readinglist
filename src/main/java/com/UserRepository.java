@@ -1,7 +1,9 @@
 package com;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Component;
 
-public interface UserRepository extends JpaRepository<User,String > {
-    public User findByUsername(String Username);
-}
+//@Component
+//public interface UserRepository extends JpaRepository<User,String > {
+//    public User findByUsername(String Username);
+//}

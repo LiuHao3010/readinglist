@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import javax.persistence.Entity;
 import java.util.Arrays;
 import java.util.Collection;
-@Entity
+//@Entity
 public class User  implements UserDetails {
     public void setUsername(String username) {
         this.username = username;
